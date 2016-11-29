@@ -1,0 +1,30 @@
+
+/*
+ * Importar Fuentes
+ */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+
+/*login*/
+body.login{
+	background     : url("../../images/admin/bg-login.jpg") no-repeat;
+	background-size: 100% 100%;
+	font-family    : 'Ubuntu' , sans-serif;
+}
+
+#login h1 a{ 
+	background: url("../../images/admin/admin-logo.jpg") no-repeat; 
+	width: 264px;
+} 
+
+.login #backtoblog, .login #nav{ background: white; }
+
+
+/*
+ * Formulario
+ */
+.login form
+{	
+	background : rgba( 0 , 0 , 0, .8 );
+}
+
